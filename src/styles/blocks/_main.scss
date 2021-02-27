@@ -87,7 +87,6 @@
 @include media-breakpoint-down(xl) {
     .main {
         height: auto;
-
         .row {  
             background-color: #F6F5F3;;
         }
@@ -100,7 +99,6 @@
 }
 @include media-breakpoint-down(md) {
 .main {
-
     .main__description {
         .col-md-3:not(:first-child) {
             border-style: none; 

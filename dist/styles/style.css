@@ -3598,7 +3598,7 @@ html {
 
 body {
   font-family: Poppins;
-  background: #a36666;
+  background: #fff;
   padding: 0;
   margin: 0; }
 
@@ -3611,76 +3611,36 @@ body {
 @font-face {
   font-family: 'Gilroy';
   font-style: normal;
-  font-weight: 300;
-  src: url("../../fonts/gilroy/Gilroy-Light.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/gilroy/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/gilroy/Gilroy-Light.woff2") format("woff2"), url("../../fonts/gilroy/Gilroy-Light.woff") format("woff"), url("../../fonts/gilroy/Gilroy-Light.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Gilroy';
-  font-style: normal;
   font-weight: normal;
-  src: url("../../fonts/gilroy/Gilroy-Regular.eot");
+  src: url("../assets/fonts/gilroy/Gilroy-Regular.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/gilroy/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/gilroy/Gilroy-Regular.woff2") format("woff2"), url("../../fonts/gilroy/Gilroy-Regular.woff") format("woff"), url("../../fonts/gilroy/Gilroy-Regular.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Gilroy';
-  font-style: normal;
-  font-weight: 500;
-  src: url("../../fonts/gilroy/Gilroy-Medium.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/gilroy/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/gilroy/Gilroy-Medium.woff2") format("woff2"), url("../../fonts/gilroy/Gilroy-Medium.woff") format("woff"), url("../../fonts/gilroy/Gilroy-Medium.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Gilroy';
-  font-style: normal;
-  font-weight: 600;
-  src: url("../../fonts/gilroy/Gilroy-Semibold.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/gilroy/Gilroy-Semibold.eot?#iefix") format("embedded-opentype"), url("../../fonts/gilroy/Gilroy-Semibold.woff2") format("woff2"), url("../../fonts/gilroy/Gilroy-Semibold.woff") format("woff"), url("../../fonts/gilroy/Gilroy-Semibold.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Gilroy';
-  font-style: normal;
-  font-weight: 700;
-  src: url("../../fonts/gilroy/Gilroy-Bold.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/gilroy/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/gilroy/Gilroy-Bold.woff2") format("woff2"), url("../../fonts/gilroy/Gilroy-Bold.woff") format("woff"), url("../../fonts/gilroy/Gilroy-Bold.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Gilroy';
-  font-style: normal;
-  font-weight: 900;
-  src: url("../../fonts/gilroy/Gilroy-Black.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/gilroy/Gilroy-Black.eot?#iefix") format("embedded-opentype"), url("../../fonts/gilroy/Gilroy-Black.woff2") format("woff2"), url("../../fonts/gilroy/Gilroy-Black.woff") format("woff"), url("../../fonts/gilroy/Gilroy-Black.ttf") format("truetype"); }
+  src: local(""), url("../assets/fonts/gilroy/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/gilroy/Gilroy-Regular.woff2") format("woff2"), url("../assets/fonts/gilroy/Gilroy-Regular.woff") format("woff"), url("../assets/fonts/gilroy/Gilroy-Regular.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  src: url("../../fonts/poppins/poppins-v15-latin-regular.eot");
+  src: url("../assets/fonts/poppins/poppins-v15-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/poppins/poppins-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/poppins-v15-latin-regular.woff2") format("woff2"), url("../../fonts/poppins/poppins-v15-latin-regular.woff") format("woff"), url("../../fonts/poppins/poppins-v15-latin-regular.ttf") format("truetype"), url("../../fonts/poppins/poppins-v15-latin-regular.svg#Poppins") format("svg");
+  src: local(""), url("../assets/fonts/poppins/poppins-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/poppins/poppins-v15-latin-regular.woff2") format("woff2"), url("../assets/fonts/poppins/poppins-v15-latin-regular.woff") format("woff"), url("../assets/fonts/poppins/poppins-v15-latin-regular.ttf") format("truetype"), url("../assets/fonts/poppins/poppins-v15-latin-regular.svg#Poppins") format("svg");
   /* Legacy iOS */ }
 
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  src: url("../../fonts/poppins/poppins-v15-latin-500.eot");
+  src: url("../assets/fonts/poppins/poppins-v15-latin-500.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/poppins/poppins-v15-latin-500.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/poppins-v15-latin-500.woff2") format("woff2"), url("../../fonts/poppins/poppins-v15-latin-500.woff") format("woff"), url("../../fonts/poppins/poppins-v15-latin-500.ttf") format("truetype"), url("../../fonts/poppins/poppins-v15-latin-500.svg#Poppins") format("svg");
+  src: local(""), url("../assets/fonts/poppins/poppins-v15-latin-500.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/poppins/poppins-v15-latin-500.woff2") format("woff2"), url("../assets/fonts/poppins/poppins-v15-latin-500.woff") format("woff"), url("../assets/fonts/poppins/poppins-v15-latin-500.ttf") format("truetype"), url("../assets/fonts/poppins/poppins-v15-latin-500.svg#Poppins") format("svg");
   /* Legacy iOS */ }
 
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  src: url("../../fonts/poppins/poppins-v15-latin-700.eot");
+  src: url("../assets/fonts/poppins/poppins-v15-latin-700.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../../fonts/poppins/poppins-v15-latin-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/poppins/poppins-v15-latin-700.woff2") format("woff2"), url("../../fonts/poppins/poppins-v15-latin-700.woff") format("woff"), url("../../fonts/poppins/poppins-v15-latin-700.ttf") format("truetype"), url("../../fonts/poppins/poppins-v15-latin-700.svg#Poppins") format("svg");
+  src: local(""), url("../assets/fonts/poppins/poppins-v15-latin-700.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/poppins/poppins-v15-latin-700.woff2") format("woff2"), url("../assets/fonts/poppins/poppins-v15-latin-700.woff") format("woff"), url("../assets/fonts/poppins/poppins-v15-latin-700.ttf") format("truetype"), url("../assets/fonts/poppins/poppins-v15-latin-700.svg#Poppins") format("svg");
   /* Legacy iOS */ }
 
 .top-bar__wrap {
@@ -4013,6 +3973,8 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
+  .products .carousel-inner {
+    margin-bottom: 79px; }
   .products .carousel-item__el-wrap:not(:last-child) {
     margin-right: 25px; }
   .products .carousel-item__el-wrap:first-child .carousel-item__img-wrap {
@@ -4041,7 +4003,7 @@ body {
     color: #333; }
   .products .carousel-indicators {
     bottom: -64px;
-    background: green;
+    background: #fff;
     height: auto; }
   .products .carousel-indicators [data-bs-target] {
     width: 11px;
@@ -4057,6 +4019,28 @@ body {
     border: 2px solid #333;
     background: #fff; }
   .products .carousel-control-prev {
-    top: 400px; }
+    top: 396px;
+    left: 36%;
+    z-index: 11; }
   .products .carousel-control-next {
-    top: 400px; }
+    top: 396px;
+    right: 36%;
+    z-index: 11; }
+
+@media (max-width: 991.98px) {
+  .products .carousel-control-prev {
+    left: 34%; }
+  .products .carousel-control-next {
+    right: 34%; } }
+
+@media (max-width: 767.98px) {
+  .products .carousel-control-prev {
+    left: 31%; }
+  .products .carousel-control-next {
+    right: 31%; } }
+
+@media (max-width: 575.98px) {
+  .products .carousel-control-prev {
+    left: 24%; }
+  .products .carousel-control-next {
+    right: 24%; } }

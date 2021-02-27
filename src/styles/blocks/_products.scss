@@ -1,6 +1,5 @@
 .products {
     margin-top: 126px;
-    // height: 600px;
     .products__title {
         text-align: center;
         font-weight: bold;
@@ -24,28 +23,22 @@
     .carousel-item__wrap {
         display: flex;
     }
+    .carousel-inner {
+        margin-bottom: 79px;
+    }
     .carousel-item {
-        // display: inline-block;
     }
     .carousel-item__el-wrap {
-        // flex: 20%;
-        // margin-right: 25px;
     }
     .carousel-item__el-wrap:not(:last-child) {
-        // flex: 20%;
         margin-right: 25px;
     }
     .carousel-item__el-wrap:first-child .carousel-item__img-wrap  {
-        // flex: 20%;
-        // margin-right: 25px;
         padding-left: 0;
 
     }
     .carousel-item__el-wrap:last-child .carousel-item__img-wrap  {
-        // flex: 20%;
-        // margin-right: 25px;
         padding-right: 0;
-
     }
     .carousel-item__img-wrap {
         max-width: 274px;
@@ -55,12 +48,6 @@
         img {
         }
     }
-    // .carousel-item__img-wrap:first-child {
-    //     padding-left: 0;
-    // }
-    // .carousel-item__img-wrap:last-child {
-    //     padding-right: 0;
-    // } 
     .carousel-item__title {
         font-weight: bold;
         margin-top: 14px;
@@ -80,20 +67,17 @@
         color: $gray;
     }
     .carousel-indicators {
-        // bottom: -47px; 
         bottom: -64px; 
-        background: green;
+        background: $white;
         height: auto;
     } 
     .carousel-indicators [data-bs-target] {
-    // .carousel-indicators {
         width: 11px;
         height: 11px;
         background: #C4C4C4;
         opacity: 0.4;
         border-radius: 50%; 
         border: none;
-        // border: 2px solid transparent; 
         border: 2px solid $white;
         margin-left: 10px;
         margin-right: 10px;
@@ -102,20 +86,48 @@
         border: 2px solid $gray;
         background: $white;
     }   
-    // .active {
-    //     border: 2px solid $gray;
-    // }
-    // aria-current=true
+    .active {
+    }
     .carousel__btn {
-        // border-radius: 50%;
     }
     .carousel-control-prev {
-        top: 400px;
-        // bottom: 0;
+        top: 396px;
+        left: 36%;
+        z-index: 11; 
     }
     .carousel-control-next {
-        top: 400px;
-        // bottom: 0;
+        top:  396px;
+        right: 36%;
+        z-index: 11;
     }
-    
+}
+@include media-breakpoint-down(lg) {
+    .products {
+        .carousel-control-prev {
+            left: 34%;
+        }
+        .carousel-control-next {
+            right: 34%;
+        }
+    }
+}
+@include media-breakpoint-down(md) {
+    .products {
+        .carousel-control-prev {
+            left: 31%;
+        }
+        .carousel-control-next {
+            right: 31%;
+        }
+    }
+}
+@include media-breakpoint-down(sm) {
+    .products {
+        .carousel-control-prev {
+            left: 24%;
+        }
+        .carousel-control-next {
+            right: 24%;
+        }
+    }
 }

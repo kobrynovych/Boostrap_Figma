@@ -11,6 +11,9 @@ libs/
 ml.html
 en.html
 upwork.html
+.publish/
+dist/
+
 
 02_PREVIEWS/
 
