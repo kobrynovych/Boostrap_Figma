@@ -13,7 +13,7 @@ https://igorkob.github.io/Boostrap_Figma
 
 First clone this repository.
 ```bash
-$ git clone https://github.com/IgorKob/React_Drag_and_Drop.git
+$ git clone https://github.com/IgorKob/Boostrap_Figma.git
 ```
 
 Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
